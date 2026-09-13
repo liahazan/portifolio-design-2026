@@ -251,6 +251,14 @@ nav a[aria-current="page"] {
   line-height: 1.5;
 }
 
+/* A home (galeria) recupera o respiro que o .main tinha antes; as demais
+   páginas (projeto/sobre) ficam sem essa margem extra de propósito. */
+@media (min-width: 1051px) {
+  .gallery {
+    padding: 56px clamp(28px, 4.5vw, 68px);
+  }
+}
+
 @media (min-width: 1600px) {
   .main {
     max-width: 1700px;
