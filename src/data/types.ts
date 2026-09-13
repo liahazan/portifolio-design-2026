@@ -24,17 +24,6 @@ export type ImageBlock = {
   overlay?: MediaOverlay;
 };
 
-export type SequenceBlock = {
-  type: "sequence";
-  /** Caminhos das imagens, na ordem em que devem ser exibidas no loop. */
-  frames: string[];
-  alt: string;
-  width: number;
-  height: number;
-  /** Tempo entre trocas de frame, em ms. Padrão: 1500. */
-  intervalMs?: number;
-};
-
 export type TextBlock = {
   type: "text";
   content: string;
@@ -44,7 +33,7 @@ export type TextBlock = {
   style?: CSSProperties;
 };
 
-export type ProjectBlock = ImageBlock | SequenceBlock | TextBlock;
+export type ProjectBlock = ImageBlock | TextBlock;
 
 export type Thumbnail = {
   type: "image" | "gif";

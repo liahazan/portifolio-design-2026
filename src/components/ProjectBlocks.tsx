@@ -1,6 +1,5 @@
 import type { ProjectBlock } from "@/data/types";
 import { MediaBlock } from "./MediaBlock";
-import { SequenceBlock } from "./SequenceBlock";
 
 export function ProjectBlocks({ blocks }: { blocks: ProjectBlock[] }) {
   return (
@@ -13,10 +12,6 @@ export function ProjectBlocks({ blocks }: { blocks: ProjectBlock[] }) {
               {block.content}
             </Tag>
           );
-        }
-
-        if (block.type === "sequence") {
-          return <SequenceBlock key={i} block={block} />;
         }
 
         return <MediaBlock key={i} block={block} priority={i === 0} />;
