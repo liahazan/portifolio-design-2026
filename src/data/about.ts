@@ -10,7 +10,7 @@ export const about: Project = {
       src: "/projects/sobre-e-contato/cover.png",
       alt: "Sobre e contato",
       width: 2800,
-      height: 14000,
+      height: 3796,
     },
   ],
 };
