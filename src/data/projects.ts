@@ -170,7 +170,7 @@ export const projects: Project[] = [
         src: "/projects/animacao-direcao-de-arte/cover.png",
         alt: "Animação / Direção de Arte",
         width: 2800,
-        height: 7658,
+        height: 8203,
       },
     ],
   },
