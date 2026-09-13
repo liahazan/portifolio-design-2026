@@ -4,7 +4,7 @@ import { Sidebar } from "@/components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Lia Hazan — Portfólio interativo",
-  description: "Design gráfico, direção de arte e animação — Lia Hazan.",
+  description: "Design Gráfico, Direção de Arte e Animação — Lia Hazan.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -86,7 +86,7 @@ nav a {
 }
 
 nav a[aria-current="page"] {
-  color: var(--pink);
+  color: #ff4a4a;
 }
 
 .signature {
@@ -193,6 +193,7 @@ nav a[aria-current="page"] {
   height: 100%;
   display: block;
   z-index: 2;
+  transition: opacity 0.4s ease;
 }
 
 .media-wrap {
@@ -356,7 +357,7 @@ nav a[aria-current="page"] {
   .media-skeleton {
     animation: none;
   }
-  .media-img {
+  .project-image {
     transition: none;
   }
 }

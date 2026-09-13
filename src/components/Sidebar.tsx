@@ -42,9 +42,9 @@ export function Sidebar() {
         </Link>
       </nav>
       <div className="signature">
-        Design gráfico
+        Design Gráfico
         <br />
-        Direção de arte · Animação
+        Direção de Arte · Animação
       </div>
     </aside>
   );

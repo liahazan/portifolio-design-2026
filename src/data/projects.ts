@@ -15,18 +15,16 @@ export const projects: Project[] = [
     },
     blocks: [
       {
-        type: "image",
-        src: "/projects/atelier-bandeira-de-mello/cover.png",
+        type: "sequence",
+        frames: [
+          "/projects/atelier-bandeira-de-mello/frame-1.png",
+          "/projects/atelier-bandeira-de-mello/frame-2.png",
+          "/projects/atelier-bandeira-de-mello/frame-3.png",
+        ],
         alt: "Atelier Bandeira de Mello",
         width: 2800,
         height: 14000,
-        overlay: {
-          type: "gif",
-          src: "/projects/atelier-bandeira-de-mello/top-overlay.gif",
-          alt: "",
-          width: 2800,
-          height: 1149,
-        },
+        intervalMs: 1500,
       },
     ],
   },
