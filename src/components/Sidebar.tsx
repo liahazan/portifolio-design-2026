@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -15,9 +16,22 @@ export function Sidebar() {
         className="brand"
         aria-label="Lia Hazan — voltar à galeria"
       >
-        <span>LIA</span>
-        <br />
-        <span>HAZAN</span>
+        <Image
+          className="brand-logo brand-logo--desktop"
+          src="/logo-desktop.png"
+          alt=""
+          width={738}
+          height={516}
+          priority
+        />
+        <Image
+          className="brand-logo brand-logo--mobile"
+          src="/logo-mobile.png"
+          alt=""
+          width={1155}
+          height={356}
+          priority
+        />
       </Link>
       <nav aria-label="Navegação principal">
         <Link href="/" aria-current={isHome ? "page" : undefined}>

@@ -54,16 +54,18 @@ a:focus-visible {
 
 .brand {
   display: block;
-  text-align: left;
-  background: var(--pink);
-  color: #fff;
-  font-size: 46px;
-  line-height: 1.02;
-  font-weight: 700;
-  letter-spacing: -2px;
-  padding: 22px 20px;
   width: 100%;
   max-width: 196px;
+}
+
+.brand-logo {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.brand-logo--desktop {
+  display: block;
 }
 
 nav {
@@ -279,9 +281,6 @@ nav a[aria-current="page"] {
   .sidebar {
     padding: 32px 24px;
   }
-  .brand {
-    font-size: 40px;
-  }
   .main {
     padding: 38px 28px;
   }
@@ -303,17 +302,16 @@ nav a[aria-current="page"] {
     gap: 18px;
   }
   .brand {
-    font-size: 21px;
     width: auto;
     max-width: none;
-    padding: 9px 11px;
-    letter-spacing: -1px;
   }
-  .brand br {
+  .brand-logo--desktop {
     display: none;
   }
-  .brand span + span {
-    margin-left: 6px;
+  .brand-logo--mobile {
+    display: block;
+    width: auto;
+    height: 32px;
   }
   nav {
     flex-direction: row;
