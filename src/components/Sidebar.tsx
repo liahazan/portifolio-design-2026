@@ -20,16 +20,16 @@ export function Sidebar() {
           className="brand-logo brand-logo--desktop"
           src="/logo-desktop.png"
           alt=""
-          width={738}
-          height={516}
+          width={725}
+          height={478}
           priority
         />
         <Image
           className="brand-logo brand-logo--mobile"
           src="/logo-mobile.png"
           alt=""
-          width={1155}
-          height={356}
+          width={1116}
+          height={275}
           priority
         />
       </Link>
