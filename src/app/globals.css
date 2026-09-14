@@ -91,6 +91,25 @@ nav a[aria-current="page"] {
 
 .signature {
   margin-top: auto;
+}
+
+.signature-title {
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.signature-text {
+  margin: 0;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.signature-tagline {
+  margin: 16px 0 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.75;

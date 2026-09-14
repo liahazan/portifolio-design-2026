@@ -42,9 +42,12 @@ export function Sidebar() {
         </Link>
       </nav>
       <div className="signature">
-        Design Gráfico
-        <br />
-        Direção de Arte · Animação
+        <p className="signature-title">Product &amp; Visual Designer</p>
+        <p className="signature-text">
+          Soluções simples para problemas complexos, pensadas a partir das
+          pessoas.
+        </p>
+        <p className="signature-tagline">Direção de Arte · Animação</p>
       </div>
     </aside>
   );
