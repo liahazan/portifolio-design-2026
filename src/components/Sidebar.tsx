@@ -28,8 +28,8 @@ export function Sidebar() {
           className="brand-logo brand-logo--mobile"
           src="/logo-mobile.png"
           alt=""
-          width={1116}
-          height={275}
+          width={1109}
+          height={287}
           priority
         />
       </Link>
