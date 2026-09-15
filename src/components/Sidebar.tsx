@@ -20,16 +20,16 @@ export function Sidebar() {
           className="brand-logo brand-logo--desktop"
           src="/logo-desktop.png"
           alt=""
-          width={725}
-          height={478}
+          width={709}
+          height={531}
           priority
         />
         <Image
           className="brand-logo brand-logo--mobile"
           src="/logo-mobile.png"
           alt=""
-          width={1109}
-          height={287}
+          width={1150}
+          height={288}
           priority
         />
       </Link>
@@ -47,7 +47,6 @@ export function Sidebar() {
           Soluções simples para problemas complexos, pensadas a partir das
           pessoas.
         </p>
-        <p className="signature-tagline">Direção de Arte · Animação</p>
       </div>
     </aside>
   );
